@@ -1,0 +1,25 @@
+
+#Site settings
+title: DJ Photography
+description: DJ Photography
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:
+
+assets:
+  js_compressor: uglifier
+  css_compressor: sass
+  cache: true
+
+# sass:
+#   sass_dir: css
+# coffee:
+#   coffee_dir: js
+
+# Build settings
+markdown: kramdown
+permalink: date
+source: src
+encoding: utf-8
+timezone: America/Chicago
